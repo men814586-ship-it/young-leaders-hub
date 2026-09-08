@@ -1,0 +1,6 @@
+server/config.json
+server/data/*.json
+server/data/*.tmp
+server/data/*.corrupt-*
+node_modules/
+.DS_Store
