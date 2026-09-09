@@ -109,6 +109,17 @@
         });
       });
     });
+
+    /* Deep-link support: ?cat=academics|leadership|professional|fitness auto-applies the matching filter */
+    var params = new URLSearchParams(window.location.search);
+    var cat = params.get('cat');
+    if (cat) {
+      var target = document.querySelector('[data-filter="' + cat + '"]');
+      if (target) {
+        target.click();
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
   }
 
   /* ---- Forms: submit to the enquiry API ---- */
@@ -171,6 +182,12 @@
       if (!data.childName && data.cname) data.childName = data.cname;
       if (!data.childAge && data.age) data.childAge = data.age;
       if (!data.message && data.msg) data.message = data.msg;
+      // Updated enrollment form fields: father's name is the primary contact,
+      // student's name/age are the child fields the API expects.
+      if (!data.name && data.fname) data.name = data.fname;
+      if (!data.childName && data.sname) data.childName = data.sname;
+      if (!data.childAge && data.sage) data.childAge = data.sage;
+      if (!data.phone && data.fphone) data.phone = data.fphone;
 
       err.classList.remove('show');
       if (ok) ok.classList.remove('show');
@@ -236,14 +253,6 @@
 (function () {
   'use strict';
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  /* ---- Preloader ---- */
-  var pre = document.querySelector('.preload');
-  if (pre) {
-    var hide = function () { pre.classList.add('done'); };
-    window.addEventListener('load', function () { setTimeout(hide, 350); });
-    setTimeout(hide, 3500); // safety net
-  }
 
   /* ---- Scroll progress bar ---- */
   var bar = document.querySelector('.scroll-bar');
