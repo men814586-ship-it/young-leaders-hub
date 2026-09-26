@@ -217,16 +217,17 @@ p{color:var(--ink-500)}
 .hero-bg-video{
   position:absolute;top:0;left:0;width:100%;height:100%;
   object-fit:cover;object-position:center;z-index:0;border:0;pointer-events:none;
+  filter:brightness(1.12) saturate(1.1) contrast(1.03);
 }
 .hero-bg-overlay{
   position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;
   background:
-    linear-gradient(100deg,rgba(10,15,44,.86) 0%,rgba(12,18,50,.74) 36%,rgba(15,22,58,.58) 68%,rgba(15,22,58,.52) 100%),
+    linear-gradient(100deg,rgba(10,15,44,.74) 0%,rgba(12,18,50,.58) 36%,rgba(15,22,58,.38) 68%,rgba(15,22,58,.32) 100%),
     radial-gradient(1100px 620px at 78% -8%,rgba(240,135,30,.16),transparent 62%),
     radial-gradient(900px 560px at 6% 108%,rgba(18,165,148,.13),transparent 60%);
 }
 @media (max-width:720px){
-  .hero-bg-overlay{background:linear-gradient(170deg,rgba(10,15,44,.88) 0%,rgba(13,19,52,.8) 60%,rgba(15,22,58,.78) 100%)}
+  .hero-bg-overlay{background:linear-gradient(170deg,rgba(10,15,44,.8) 0%,rgba(13,19,52,.7) 60%,rgba(15,22,58,.66) 100%)}
 }
 .hero::after{
   content:"";position:absolute;inset:0;pointer-events:none;opacity:.45;
@@ -1100,7 +1101,7 @@ body{-webkit-tap-highlight-color:rgba(240,135,30,.18)}
 /* --- 10. Hero background video on phones: poster fallback if autoplay blocked --- */
 @media (max-width:640px){
   .hero{background:var(--navy-900) url("../img/hero-bg-poster.jpg") center/cover no-repeat}
-  .hero-bg-overlay{background:linear-gradient(170deg,rgba(10,15,44,.9) 0%,rgba(13,19,52,.84) 55%,rgba(15,22,58,.8) 100%)}
+  .hero-bg-overlay{background:linear-gradient(170deg,rgba(10,15,44,.82) 0%,rgba(13,19,52,.74) 55%,rgba(15,22,58,.68) 100%)}
 }
 
 /* --- 11. Phones in landscape (short viewports) --- */
