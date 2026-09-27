@@ -227,7 +227,7 @@ p{color:var(--ink-500)}
     radial-gradient(900px 560px at 6% 108%,rgba(18,165,148,.13),transparent 60%);
 }
 @media (max-width:720px){
-  .hero-bg-overlay{background:linear-gradient(170deg,rgba(10,15,44,.8) 0%,rgba(13,19,52,.7) 60%,rgba(15,22,58,.66) 100%)}
+  .hero-bg-overlay{background:linear-gradient(170deg,rgba(10,15,44,.62) 0%,rgba(13,19,52,.48) 55%,rgba(15,22,58,.58) 100%)}
 }
 .hero::after{
   content:"";position:absolute;inset:0;pointer-events:none;opacity:.45;
@@ -1101,7 +1101,14 @@ body{-webkit-tap-highlight-color:rgba(240,135,30,.18)}
 /* --- 10. Hero background video on phones: poster fallback if autoplay blocked --- */
 @media (max-width:640px){
   .hero{background:var(--navy-900) url("../img/hero-bg-poster.jpg") center/cover no-repeat}
-  .hero-bg-overlay{background:linear-gradient(170deg,rgba(10,15,44,.82) 0%,rgba(13,19,52,.74) 55%,rgba(15,22,58,.68) 100%)}
+  .hero-bg-overlay{background:linear-gradient(170deg,rgba(10,15,44,.72) 0%,rgba(13,19,52,.6) 55%,rgba(15,22,58,.68) 100%)}
+  /* phones: brighter video, text kept readable with a soft shadow */
+  .hero-bg-video{filter:brightness(1.1) saturate(1.1) contrast(1.04)}
+  .hero .blob{opacity:.28}
+  .hero h1,.hero p,.hero-badge{text-shadow:0 2px 14px rgba(6,10,34,.75),0 1px 3px rgba(6,10,34,.6)}
+  .hero p{color:#d3dcee}
+  .hero h1 .accent{text-shadow:none;filter:drop-shadow(0 2px 10px rgba(6,10,34,.7))}
+  .hero-badge b{text-shadow:none}
 }
 
 /* --- 11. Phones in landscape (short viewports) --- */
