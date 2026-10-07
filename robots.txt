@@ -1,3 +1,6 @@
 User-agent: *
+Disallow: /admin.html
+Disallow: /api/
+Allow: /api/content.js
 Allow: /
 Sitemap: https://youngleadershub.co/sitemap.xml

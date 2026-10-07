@@ -7,3 +7,9 @@ node_modules/
 
 # Local Netlify folder
 .netlify
+
+# Admin panel / Vercel
+.vercel
+_uploads/
+_zip/
+*.zip

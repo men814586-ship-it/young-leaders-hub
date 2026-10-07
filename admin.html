@@ -2,620 +2,75 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Admin — Young Leaders Hub</title>
-<meta name="robots" content="noindex,nofollow">
-<meta name="theme-color" content="#243090">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin · Young Leaders Hub</title>
 <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{
-  --navy-900:#060a22;--navy-800:#0d1440;--navy-700:#151d5c;--navy-600:#1c2775;--navy-500:#243090;
-  --orange:#f0871e;--orange-light:#f79c3d;--orange-tint:#fff1e6;
-  --ink-900:#0c1220;--ink-700:#2b3547;--ink-500:#5b6678;--ink-300:#97a1b1;
-  --line:#e4e8ef;--bg:#f6f8fc;--teal:#12a594;--red:#c0392b;
-  --radius:14px;--shadow:0 4px 12px rgba(13,20,64,.07),0 12px 32px rgba(13,20,64,.08);
-  --font-d:'Sora','Segoe UI',system-ui,sans-serif;--font-b:'Plus Jakarta Sans','Segoe UI',system-ui,sans-serif;
-}
-*,*::before,*::after{box-sizing:border-box}*{margin:0;padding:0}
-body{font-family:var(--font-b);background:var(--bg);color:var(--ink-700);line-height:1.6;-webkit-font-smoothing:antialiased}
-h1,h2,h3,h4{font-family:var(--font-d);color:var(--ink-900);line-height:1.2;letter-spacing:-.02em}
-button,input,select,textarea{font:inherit;color:inherit}
-a{color:inherit}
-:focus-visible{outline:3px solid var(--orange);outline-offset:2px;border-radius:6px}
-ul{list-style:none}
-
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:.45rem;padding:.62rem 1.15rem;
-  border-radius:999px;border:1.5px solid transparent;font-weight:700;font-size:.88rem;cursor:pointer;
-  transition:transform .2s,background .2s,color .2s,border-color .2s;white-space:nowrap}
-.btn:hover{transform:translateY(-1px)}
-.btn-primary{background:linear-gradient(135deg,var(--orange),var(--orange-light));color:#fff;box-shadow:0 6px 18px rgba(240,135,30,.32)}
-.btn-dark{background:var(--navy-800);color:#fff}
-.btn-ghost{background:#fff;border-color:var(--line);color:var(--navy-800)}
-.btn-ghost:hover{border-color:var(--navy-500)}
-.btn-sm{padding:.4rem .8rem;font-size:.8rem}
-.btn-danger{background:#fff;border-color:#f0c4be;color:var(--red)}
-.btn-danger:hover{background:var(--red);color:#fff;border-color:transparent}
-.btn:disabled{opacity:.55;cursor:not-allowed;transform:none}
-
-/* ---------- login ---------- */
-#login{min-height:100vh;display:grid;place-items:center;padding:1.5rem;
-  background:radial-gradient(900px 500px at 80% -10%,rgba(240,135,30,.18),transparent 60%),
-             linear-gradient(160deg,var(--navy-900),var(--navy-700))}
-.login-card{width:min(100%,410px);background:#fff;border-radius:22px;padding:2.4rem 2rem;box-shadow:0 30px 70px rgba(0,0,0,.35)}
-.login-card img{height:74px;width:auto;margin:0 auto 1.4rem;display:block}
-.login-card h1{font-size:1.4rem;text-align:center;margin-bottom:.35rem}
-.login-card .sub{text-align:center;font-size:.9rem;color:var(--ink-500);margin-bottom:1.7rem}
-.field{margin-bottom:1rem}
-.field label{display:block;font-size:.82rem;font-weight:700;color:var(--ink-900);margin-bottom:.35rem}
-.field input,.field select,.field textarea{width:100%;padding:.78rem .95rem;border:1.5px solid var(--line);
-  border-radius:11px;background:var(--bg);transition:border-color .2s,background .2s;font-size:.94rem}
-.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--orange);background:#fff}
-.alert{display:none;padding:.7rem .9rem;border-radius:10px;font-size:.86rem;font-weight:600;margin-bottom:1rem}
-.alert.show{display:block}
-.alert-err{background:#fdecea;color:var(--red)}
-.alert-ok{background:#e0f5f2;color:#0b6b5f}
-
-/* ---------- shell ---------- */
-#app{display:none}
-.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);
-  border-bottom:1px solid var(--line);padding:.7rem 1.4rem;display:flex;align-items:center;gap:1rem;justify-content:space-between}
-.topbar .brand{display:flex;align-items:center;gap:.65rem;text-decoration:none}
-.topbar .brand img{height:38px;width:auto}
-.topbar .brand b{text-decoration:none;font-family:var(--font-d);font-size:.98rem;color:var(--navy-500);letter-spacing:-.02em}
-.topbar .brand span{display:block;font-size:.66rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
-.topbar .acts{display:flex;gap:.5rem;align-items:center}
-.wrap{max-width:1240px;margin-inline:auto;padding:1.6rem 1.4rem 4rem}
-
-/* ---------- stats ---------- */
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);
-  border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);margin-bottom:1.6rem}
-.stat{background:#fff;padding:1.15rem 1rem;text-align:center}
-.stat b{display:block;font-family:var(--font-d);font-size:1.8rem;font-weight:800;color:var(--navy-500);line-height:1.1}
-.stat span{font-size:.76rem;font-weight:600;color:var(--ink-500);letter-spacing:.02em}
-.stat.hot b{color:var(--orange)}
-
-/* ---------- toolbar ---------- */
-.toolbar{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin-bottom:1.1rem}
-.toolbar .search{flex:1 1 240px;min-width:200px}
-.toolbar .search input{width:100%;padding:.62rem .95rem;border:1.5px solid var(--line);border-radius:999px;background:#fff;font-size:.9rem}
-.toolbar .search input:focus{outline:none;border-color:var(--orange)}
-.chip{padding:.42rem .9rem;border-radius:999px;border:1.5px solid var(--line);background:#fff;
-  font-size:.82rem;font-weight:700;cursor:pointer;color:var(--ink-500);transition:.2s}
-.chip:hover{border-color:var(--navy-500);color:var(--navy-800)}
-.chip.on{background:var(--navy-800);border-color:var(--navy-800);color:#fff}
-
-/* ---------- table ---------- */
-.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
-.tbl-scroll{overflow-x:auto}
-table{width:100%;border-collapse:collapse;min-width:820px}
-th{text-align:left;font-family:var(--font-d);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--ink-300);padding:.85rem 1rem;border-bottom:1px solid var(--line);background:#fbfcfe;white-space:nowrap}
-td{padding:.85rem 1rem;border-bottom:1px solid var(--line);font-size:.9rem;vertical-align:top}
-tbody tr{cursor:pointer;transition:background .15s}
-tbody tr:hover{background:#fbfcfe}
-tbody tr:last-child td{border-bottom:0}
-.who b{display:block;color:var(--ink-900);font-size:.94rem}
-.who span{font-size:.8rem;color:var(--ink-300)}
-.tag{display:inline-block;font-size:.7rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;
-  padding:.24rem .6rem;border-radius:999px;white-space:nowrap}
-.t-enrollment{background:var(--orange-tint);color:#9a4d05}
-.t-contact{background:#eef2f9;color:var(--navy-600)}
-.t-feedback{background:var(--teal-tint,#e0f5f2);color:#0b6b5f}
-.stars-ic{color:var(--orange);letter-spacing:.05em;white-space:nowrap}
-.s-new{background:#e0f5f2;color:#0b6b5f}
-.s-contacted{background:var(--orange-tint);color:#9a4d05}
-.s-enrolled{background:#e6f0ff;color:var(--navy-600)}
-.s-closed{background:#f1f3f7;color:var(--ink-300)}
-.muted{color:var(--ink-300);font-size:.82rem}
-.empty{padding:3.5rem 1.5rem;text-align:center;color:var(--ink-300)}
-.empty h3{color:var(--ink-500);font-size:1.05rem;margin-bottom:.35rem}
-
-/* ---------- drawer ---------- */
-.drawer-bg{position:fixed;inset:0;z-index:30;background:rgba(6,10,34,.5);backdrop-filter:blur(3px);
-  opacity:0;visibility:hidden;transition:.3s}
-.drawer-bg.open{opacity:1;visibility:visible}
-.drawer{position:fixed;top:0;right:0;bottom:0;z-index:31;width:min(100%,460px);background:#fff;
-  box-shadow:-10px 0 40px rgba(6,10,34,.25);transform:translateX(100%);transition:transform .35s cubic-bezier(.22,.61,.36,1);
-  display:flex;flex-direction:column}
-.drawer.open{transform:none}
-.drawer-head{padding:1.2rem 1.4rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:flex-start;gap:1rem}
-.drawer-head h3{font-size:1.15rem}
-.drawer-body{padding:1.2rem 1.4rem;overflow-y:auto;flex:1}
-.drawer-foot{padding:1rem 1.4rem;border-top:1px solid var(--line);display:flex;gap:.5rem;flex-wrap:wrap}
-.kv{display:grid;grid-template-columns:112px 1fr;gap:.4rem .8rem;font-size:.9rem;margin-bottom:1.2rem}
-.kv dt{color:var(--ink-300);font-weight:600;font-size:.82rem}
-.kv dd{color:var(--ink-900);word-break:break-word}
-.kv dd a{color:var(--navy-500);text-decoration:underline}
-.msg-box{background:var(--bg);border:1px solid var(--line);border-radius:11px;padding:.9rem 1rem;
-  font-size:.9rem;white-space:pre-wrap;word-break:break-word;margin-bottom:1.2rem}
-.icon-btn{width:34px;height:34px;border-radius:9px;border:1px solid var(--line);background:#fff;
-  display:grid;place-items:center;cursor:pointer;flex-shrink:0;color:var(--ink-500)}
-.icon-btn:hover{border-color:var(--navy-500);color:var(--navy-800)}
-
-.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,140%);z-index:60;
-  background:var(--navy-800);color:#fff;padding:.75rem 1.3rem;border-radius:999px;font-size:.88rem;
-  font-weight:600;box-shadow:0 12px 30px rgba(6,10,34,.35);transition:transform .35s cubic-bezier(.22,.61,.36,1)}
-.toast.show{transform:translate(-50%,0)}
-.toast.err{background:var(--red)}
-.toast.ok{background:#0b6b5f}
-
-/* ---------- motion / polish ---------- */
-.stat{animation:statIn .5s cubic-bezier(.22,.61,.36,1) backwards}
-@keyframes statIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-.stat.pulse{animation:statPulse .6s ease}
-@keyframes statPulse{0%,100%{background:#fff}40%{background:var(--orange-tint)}}
-tbody tr[data-id]{animation:rowIn .4s cubic-bezier(.22,.61,.36,1) backwards}
-@keyframes rowIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-
-.skel td{padding:.9rem 1rem}
-.skel-bar{height:13px;border-radius:6px;background:linear-gradient(90deg,#eef1f7 25%,#e4e9f2 37%,#eef1f7 63%);
-  background-size:400% 100%;animation:shimmer 1.4s ease infinite}
-@keyframes shimmer{0%{background-position:100% 0}100%{background-position:0 0}}
-
-.row-dl{width:30px;height:30px;border-radius:8px;border:1px solid var(--line);background:#fff;
-  display:grid;place-items:center;cursor:pointer;color:var(--ink-500);transition:.2s;flex-shrink:0}
-.row-dl:hover{border-color:var(--navy-500);color:var(--navy-800);background:var(--bg)}
-
-.spin-ic{transition:transform .5s cubic-bezier(.22,.61,.36,1)}
-.spinning .spin-ic{animation:spin360 .7s linear infinite}
-@keyframes spin360{to{transform:rotate(360deg)}}
-
-/* ---------- confirm modal ---------- */
-.modal-bg{position:fixed;inset:0;z-index:40;background:rgba(6,10,34,.5);backdrop-filter:blur(3px);
-  opacity:0;visibility:hidden;transition:.25s;display:grid;place-items:center;padding:1.5rem}
-.modal-bg.open{opacity:1;visibility:visible}
-.modal-card{width:min(100%,380px);background:#fff;border-radius:18px;padding:1.6rem;box-shadow:0 30px 70px rgba(0,0,0,.35);
-  transform:translateY(14px) scale(.97);opacity:0;transition:transform .3s cubic-bezier(.22,.61,.36,1),opacity .3s}
-.modal-bg.open .modal-card{transform:none;opacity:1}
-.modal-card h4{font-size:1.05rem;margin-bottom:.5rem}
-.modal-card p{font-size:.9rem;color:var(--ink-500);margin-bottom:1.3rem}
-.modal-card .acts{display:flex;gap:.6rem;justify-content:flex-end}
-
-@media (prefers-reduced-motion:reduce){
-  *{animation:none!important;transition-duration:.001ms!important}
-}
-
-@media (max-width:900px){.stats{grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}}
-@media (max-width:600px){
-  .wrap{padding:1.1rem .9rem 3rem}
-  .topbar{padding:.6rem .9rem}
-  .topbar .brand span{display:none}
-  .stats{grid-template-columns:1fr 1fr}
-}
-</style>
+<link rel="stylesheet" href="assets/admin/admin.css?v=1">
 </head>
 <body>
 
-<!-- ============================ LOGIN ============================ -->
-<section id="login">
-  <div class="login-card">
-    <img src="assets/img/logo.png" alt="Young Leaders Hub">
-    <h1>Admin sign in</h1>
-    <p class="sub">Enquiries and enrollment requests</p>
-    <div class="alert alert-err" id="loginErr"></div>
-    <form id="loginForm" autocomplete="on">
-      <div class="field">
-        <label for="u">Username</label>
-        <input id="u" name="username" autocomplete="username" required value="admin">
-      </div>
-      <div class="field">
-        <label for="p">Password</label>
-        <input id="p" name="password" type="password" autocomplete="current-password" required>
-      </div>
-      <button class="btn btn-primary" type="submit" style="width:100%" id="loginBtn">Sign in</button>
-    </form>
-  </div>
-</section>
+<!-- Sign in -->
+<div class="login hidden" id="login">
+  <form class="login-card" id="loginForm" autocomplete="on">
+    <div class="brand">
+      <img src="assets/img/logo-icon.png" alt="">
+      <div><h1>Admin panel</h1><p class="sub">Young Leaders Hub</p></div>
+    </div>
+    <div id="setupNote" class="setup-note hidden"></div>
+    <div id="loginErr" class="err hidden" role="alert"></div>
+    <label class="f"><span>Username</span><input class="input" name="username" autocomplete="username" required autofocus></label>
+    <label class="f"><span>Password</span><input class="input" name="password" type="password" autocomplete="current-password" required></label>
+    <button class="btn btn-primary" style="width:100%;padding:11px" type="submit">Sign in</button>
+    <p class="faint" style="font-size:12px;text-align:center;margin:16px 0 0">Staff only. Every sign-in is recorded in the activity log.</p>
+  </form>
+</div>
 
-<!-- ============================ APP ============================ -->
-<div id="app">
-  <header class="topbar">
-    <a class="brand" href="index.html">
-      <img src="assets/img/logo-mark.png" alt="">
-      <span><b>Young Leaders Hub</b><span>Admin Panel</span></span>
+<!-- App -->
+<div class="app hidden" id="app">
+  <aside class="side" id="side">
+    <a class="brand" href="index.html" target="_blank" rel="noopener" title="Open the website">
+      <img src="assets/img/logo-icon.png" alt="">
+      <span><b>Young Leaders Hub</b><small>Admin panel</small></span>
     </a>
-    <div class="acts">
-      <a class="btn btn-ghost btn-sm" href="index.html" target="_blank" rel="noopener">View site</a>
-      <button class="btn btn-ghost btn-sm" id="refreshBtn" aria-label="Refresh">
-        <svg class="spin-ic" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7M21 3v6h-6"/></svg>
-      </button>
-      <button class="btn btn-ghost btn-sm" id="exportBtn">Export All (CSV)</button>
-      <button class="btn btn-dark btn-sm" id="logoutBtn">Sign out</button>
+    <nav class="nav" id="nav"></nav>
+    <div class="me">
+      <div class="avatar-sm" id="meAvatar">A</div>
+      <div><b id="meName">—</b><small id="meRole">—</small></div>
+      <button id="logout" title="Sign out" aria-label="Sign out"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3M10 17l5-5-5-5M15 12H3"/></svg></button>
     </div>
-  </header>
-
-  <main class="wrap">
-    <div class="stats" id="stats"></div>
-
-    <div class="toolbar">
-      <div class="search"><input id="search" type="search" placeholder="Search name, email, phone, program…"></div>
-      <button class="chip on" data-f="all">All</button>
-      <button class="chip" data-f="new">New</button>
-      <button class="chip" data-f="contacted">Contacted</button>
-      <button class="chip" data-f="enrolled">Enrolled</button>
-      <button class="chip" data-f="closed">Closed</button>
-      <button class="chip" data-f="enrollment">Enrollment</button>
-      <button class="chip" data-f="contact">Contact</button>
-      <button class="chip" data-f="feedback">Feedback</button>
-    </div>
-
-    <div class="card">
-      <div class="tbl-scroll">
-        <table>
-          <thead>
-            <tr><th>Received</th><th>Who</th><th>Type</th><th>Interest</th><th>Contact</th><th>Status</th><th><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Download</span></th></tr>
-          </thead>
-          <tbody id="rows"></tbody>
-        </table>
-      </div>
-      <div class="empty" id="empty" style="display:none">
-        <h3>Nothing here yet</h3>
-        <p>Enquiries submitted through the website will appear on this page.</p>
-      </div>
-    </div>
-  </main>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <button class="burger" id="burger" aria-label="Menu"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <div><h2 id="pageTitle">Dashboard</h2><div class="sub" id="pageSub"></div></div>
+      <div class="grow"></div>
+      <div id="topActions" class="row"></div>
+      <a class="btn btn-ghost btn-sm hide-sm" href="index.html" target="_blank" rel="noopener">View website ↗</a>
+    </header>
+    <main class="content" id="view"></main>
+  </div>
 </div>
 
-<div class="drawer-bg" id="drawerBg"></div>
-<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Enquiry detail">
-  <div class="drawer-head">
-    <div><h3 id="dName">—</h3><p class="muted" id="dWhen"></p></div>
-    <button class="icon-btn" id="dClose" aria-label="Close">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
-    </button>
-  </div>
-  <div class="drawer-body" id="dBody"></div>
-  <div class="drawer-foot">
-    <select id="dStatus" style="padding:.55rem .8rem;border:1.5px solid var(--line);border-radius:999px;font-size:.85rem;font-weight:700">
-      <option value="new">New</option>
-      <option value="contacted">Contacted</option>
-      <option value="enrolled">Enrolled</option>
-      <option value="closed">Closed</option>
-    </select>
-    <a class="btn btn-primary btn-sm" id="dMail" href="#">Reply by email</a>
-    <a class="btn btn-ghost btn-sm" id="dDownload" href="#" download>Download</a>
-    <button class="btn btn-danger btn-sm" id="dDelete">Delete</button>
-  </div>
+<div class="publish-bar" id="publishBar">
+  <span class="dot"></span>
+  <div class="grow"><b>Unsaved changes</b> <span class="hide-sm" style="opacity:.75">— visitors still see the old version until you publish.</span></div>
+  <button class="btn btn-ghost btn-sm" id="discardBtn">Discard</button>
+  <button class="btn btn-primary" id="publishBtn">Publish to website</button>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-modal="true" role="dialog">
+  <div class="drawer-h"><h3 id="drawerTitle"></h3><button class="x" id="drawerClose" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+  <div class="drawer-b" id="drawerBody"></div>
+  <div class="drawer-f" id="drawerFoot"></div>
 </aside>
+<div class="toast-wrap" id="toasts" aria-live="polite"></div>
+<input type="file" id="filePick" accept="image/*" class="hidden">
 
-<div class="modal-bg" id="confirmBg">
-  <div class="modal-card" id="confirmCard" role="alertdialog" aria-modal="true" aria-labelledby="confirmTitle">
-    <h4 id="confirmTitle">Delete this enquiry?</h4>
-    <p id="confirmMsg">This removes it permanently — it can&rsquo;t be undone.</p>
-    <div class="acts">
-      <button class="btn btn-ghost btn-sm" id="confirmCancel">Cancel</button>
-      <button class="btn btn-danger btn-sm" id="confirmOk">Delete</button>
-    </div>
-  </div>
-</div>
-
-<div class="toast" id="toast"></div>
-
-<script>
-(function () {
-  'use strict';
-
-  var $ = function (id) { return document.getElementById(id); };
-  var state = { list: [], counts: {}, filter: 'all', q: '', current: null, loaded: false };
-
-  function esc(s) {
-    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-    });
-  }
-
-  function toast(msg, type) {
-    var t = $('toast');
-    t.textContent = msg;
-    t.className = 'toast show' + (type ? ' ' + type : '');
-    clearTimeout(t.__timer);
-    t.__timer = setTimeout(function () { t.classList.remove('show'); }, 2600);
-  }
-
-  /* Promise-based confirm dialog, replaces the native browser confirm() */
-  function confirmDialog(title, msg) {
-    var bg = $('confirmBg');
-    $('confirmTitle').textContent = title;
-    $('confirmMsg').textContent = msg;
-    bg.classList.add('open');
-    return new Promise(function (resolve) {
-      function done(v) {
-        bg.classList.remove('open');
-        $('confirmOk').removeEventListener('click', onOk);
-        $('confirmCancel').removeEventListener('click', onCancel);
-        bg.removeEventListener('click', onBg);
-        resolve(v);
-      }
-      function onOk() { done(true); }
-      function onCancel() { done(false); }
-      function onBg(e) { if (e.target === bg) done(false); }
-      $('confirmOk').addEventListener('click', onOk);
-      $('confirmCancel').addEventListener('click', onCancel);
-      bg.addEventListener('click', onBg);
-    });
-  }
-
-  function api(url, options) {
-    return fetch(url, Object.assign({ credentials: 'same-origin' }, options || {}))
-      .then(function (r) {
-        return r.json().catch(function () { return {}; }).then(function (body) {
-          if (!r.ok) throw new Error(body.error || 'Request failed (' + r.status + ')');
-          return body;
-        });
-      });
-  }
-
-  function when(iso) {
-    var d = new Date(iso);
-    if (isNaN(d)) return '—';
-    return d.toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }) +
-      ', ' + d.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
-  }
-
-  /* ---------------- login ---------------- */
-
-  $('loginForm').addEventListener('submit', function (e) {
-    e.preventDefault();
-    var err = $('loginErr');
-    err.classList.remove('show');
-    $('loginBtn').disabled = true;
-
-    api('/api/admin/login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ username: $('u').value, password: $('p').value })
-    }).then(function () {
-      $('p').value = '';
-      showApp();
-    }).catch(function (e2) {
-      err.textContent = e2.message;
-      err.classList.add('show');
-    }).finally(function () { $('loginBtn').disabled = false; });
-  });
-
-  $('logoutBtn').addEventListener('click', function () {
-    api('/api/admin/logout', { method: 'POST' }).finally(function () {
-      $('app').style.display = 'none';
-      $('login').style.display = 'grid';
-    });
-  });
-
-  $('exportBtn').addEventListener('click', function () {
-    window.location.href = '/api/admin/export.csv';
-  });
-
-  $('refreshBtn').addEventListener('click', function () {
-    load({ manual: true });
-  });
-
-  var pollTimer = null;
-
-  function showApp() {
-    $('login').style.display = 'none';
-    $('app').style.display = 'block';
-    load();
-    clearInterval(pollTimer);
-    pollTimer = setInterval(function () { load({ background: true }); }, 25000);
-  }
-
-  /* ---------------- data ---------------- */
-
-  function load(opts) {
-    opts = opts || {};
-    var first = !state.loaded;
-    if (first) renderSkeleton();
-    var btn = $('refreshBtn');
-    if (opts.manual && btn) btn.classList.add('spinning');
-
-    api('/api/admin/enquiries').then(function (data) {
-      var prevAll = state.counts.all;
-      var prevIds = state.list.map(function (e) { return e.id; });
-      state.list = data.enquiries || [];
-      state.counts = data.counts || {};
-      state.loaded = true;
-      render();
-
-      if (opts.background && typeof prevAll === 'number') {
-        var freshCount = state.list.filter(function (e) { return prevIds.indexOf(e.id) < 0; }).length;
-        if (freshCount > 0) {
-          toast(freshCount === 1 ? 'A new enquiry just came in' : freshCount + ' new enquiries just came in', 'ok');
-          var hotStat = document.querySelector('.stat.hot');
-          if (hotStat) hotStat.classList.add('pulse');
-        }
-      } else if (opts.manual) {
-        toast('Up to date');
-      }
-    }).catch(function (e) {
-      if (/signed in/i.test(e.message)) {
-        clearInterval(pollTimer);
-        $('app').style.display = 'none';
-        $('login').style.display = 'grid';
-      } else if (!opts.background) toast(e.message, 'err');
-    }).finally(function () {
-      if (opts.manual && btn) btn.classList.remove('spinning');
-    });
-  }
-
-  function visible() {
-    var q = state.q.toLowerCase();
-    return state.list.filter(function (e) {
-      var byFilter =
-        state.filter === 'all' ? true :
-        (state.filter === 'enrollment' || state.filter === 'contact' || state.filter === 'feedback')
-          ? e.type === state.filter
-          : e.status === state.filter;
-      if (!byFilter) return false;
-      if (!q) return true;
-      return [e.name, e.childName, e.email, e.phone, e.program, e.subject, e.message]
-        .join(' ').toLowerCase().indexOf(q) > -1;
-    });
-  }
-
-  function render() {
-    var c = state.counts;
-    $('stats').innerHTML =
-      tile(c.all || 0, 'Total enquiries') +
-      tile(c.new || 0, 'New', true) +
-      tile(c.contacted || 0, 'Contacted') +
-      tile(c.enrolled || 0, 'Enrolled') +
-      tile(c.enrollment || 0, 'Enrollment forms') +
-      tile(c.feedback || 0, 'Parent feedback') +
-      (c.avgRating ? tile(stars(Math.round(c.avgRating)) , 'Avg rating (' + c.avgRating + ')') : '');
-
-    var rows = visible();
-    $('empty').style.display = rows.length ? 'none' : 'block';
-    $('rows').innerHTML = rows.map(function (e, i) {
-      var interest = e.type === 'feedback' && e.rating
-        ? '<span class="stars-ic">' + stars(e.rating) + '</span>'
-        : esc(e.program || e.subject || '—');
-      var delay = Math.min(i, 14) * 0.03;
-      return '<tr data-id="' + esc(e.id) + '" style="animation-delay:' + delay + 's">' +
-        '<td class="muted">' + esc(when(e.receivedAt)) + '</td>' +
-        '<td class="who"><b>' + esc(e.name || '—') + '</b>' +
-          (e.childName ? '<span>child: ' + esc(e.childName) +
-            (e.childAge ? ', age ' + esc(e.childAge) : '') + '</span>' : '') + '</td>' +
-        '<td><span class="tag t-' + esc(e.type) + '">' + esc(e.type) + '</span></td>' +
-        '<td>' + interest + '</td>' +
-        '<td class="muted">' + esc(e.email) + (e.phone ? '<br>' + esc(e.phone) : '') + '</td>' +
-        '<td><span class="tag s-' + esc(e.status) + '">' + esc(e.status) + '</span></td>' +
-        '<td><button class="row-dl" data-dl="' + esc(e.id) + '" title="Download this enquiry" aria-label="Download this enquiry">' +
-          '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v13m0 0-4.5-4.5M12 16l4.5-4.5M4 20h16"/></svg>' +
-        '</button></td>' +
-      '</tr>';
-    }).join('');
-  }
-
-  function renderSkeleton() {
-    var widths = [70, 55, 40, 60, 65, 35];
-    var cells = widths.map(function (w) {
-      return '<td><span class="skel-bar" style="width:' + w + '%"></span></td>';
-    }).join('') + '<td></td>';
-    var out = '';
-    for (var i = 0; i < 6; i++) out += '<tr class="skel">' + cells + '</tr>';
-    $('rows').innerHTML = out;
-    $('empty').style.display = 'none';
-  }
-
-  function tile(n, label, hot) {
-    return '<div class="stat' + (hot ? ' hot' : '') + '"><b>' + n + '</b><span>' + label + '</span></div>';
-  }
-
-  function stars(n) {
-    n = Math.max(0, Math.min(5, n || 0));
-    return new Array(n + 1).join('★') + new Array(5 - n + 1).join('☆');
-  }
-
-  /* ---------------- filters ---------------- */
-
-  document.querySelectorAll('.chip').forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      document.querySelectorAll('.chip').forEach(function (c) { c.classList.remove('on'); });
-      chip.classList.add('on');
-      state.filter = chip.dataset.f;
-      render();
-    });
-  });
-
-  var searchTimer;
-  $('search').addEventListener('input', function (e) {
-    clearTimeout(searchTimer);
-    var v = e.target.value;
-    searchTimer = setTimeout(function () { state.q = v; render(); }, 160);
-  });
-
-  /* ---------------- drawer ---------------- */
-
-  $('rows').addEventListener('click', function (e) {
-    var dlBtn = e.target.closest('.row-dl');
-    if (dlBtn) {
-      window.location.href = '/api/admin/enquiries/' + dlBtn.dataset.dl + '/export.csv';
-      return;
-    }
-    var tr = e.target.closest('tr[data-id]');
-    if (tr) open(tr.dataset.id);
-  });
-
-  function open(id) {
-    var e = state.list.find(function (x) { return x.id === id; });
-    if (!e) return;
-    state.current = e;
-
-    $('dName').textContent = e.name || 'Enquiry';
-    $('dWhen').textContent = when(e.receivedAt) + ' · ' + e.type;
-    $('dStatus').value = e.status;
-    $('dMail').href = 'mailto:' + e.email + '?subject=' +
-      encodeURIComponent('Re: your enquiry — Young Leaders Hub');
-    $('dDownload').href = '/api/admin/enquiries/' + e.id + '/export.csv';
-
-    var kv = '';
-    function row(k, v, link) {
-      if (!v) return;
-      kv += '<dt>' + esc(k) + '</dt><dd>' +
-        (link ? '<a href="' + esc(link) + '">' + esc(v) + '</a>' : esc(v)) + '</dd>';
-    }
-    if (e.type === 'feedback' && e.rating) row('Rating', stars(e.rating) + ' (' + e.rating + '/5)');
-    row('Email', e.email, 'mailto:' + e.email);
-    row('Phone', e.phone, 'tel:' + String(e.phone).replace(/\s/g, ''));
-    row("Child", e.childName);
-    row('Age', e.childAge);
-    row('Preferred slot', e.slot);
-    row('Program', e.program);
-    row('Subject', e.subject);
-    row('Page', e.source);
-
-    $('dBody').innerHTML =
-      '<dl class="kv">' + kv + '</dl>' +
-      (e.message ? '<h4 style="font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-300);margin-bottom:.5rem">Message</h4>' +
-        '<div class="msg-box">' + esc(e.message) + '</div>' : '');
-
-    $('drawer').classList.add('open');
-    $('drawerBg').classList.add('open');
-  }
-
-  function close() {
-    $('drawer').classList.remove('open');
-    $('drawerBg').classList.remove('open');
-    state.current = null;
-  }
-
-  $('dClose').addEventListener('click', close);
-  $('drawerBg').addEventListener('click', close);
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
-
-  $('dStatus').addEventListener('change', function () {
-    if (!state.current) return;
-    var id = state.current.id, status = $('dStatus').value;
-    api('/api/admin/enquiries/' + id, {
-      method: 'PATCH',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ status: status })
-    }).then(function () {
-      toast('Marked as ' + status, 'ok');
-      load();
-    }).catch(function (e) { toast(e.message, 'err'); });
-  });
-
-  $('dDelete').addEventListener('click', function () {
-    if (!state.current) return;
-    var who = state.current.name || 'this enquiry';
-    confirmDialog('Delete this enquiry?', 'Remove ' + who + '’s submission permanently — it can’t be undone.')
-      .then(function (ok) {
-        if (!ok || !state.current) return;
-        return api('/api/admin/enquiries/' + state.current.id, { method: 'DELETE' })
-          .then(function () { toast('Enquiry deleted', 'ok'); close(); load(); })
-          .catch(function (e) { toast(e.message, 'err'); });
-      });
-  });
-
-  /* ---------------- boot ---------------- */
-
-  api('/api/admin/session').then(function (r) {
-    if (r.signedIn) showApp();
-  }).catch(function () { /* server not reachable — stay on the login screen */ });
-})();
-</script>
+<script src="assets/admin/admin.js?v=1"></script>
 </body>
 </html>

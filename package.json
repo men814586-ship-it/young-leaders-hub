@@ -1,0 +1,9 @@
+{
+  "name": "young-leaders-hub",
+  "private": true,
+  "description": "Young Leaders Hub website + admin panel (Vercel)",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@vercel/blob": "^2.8.1"
+  }
+}

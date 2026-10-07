@@ -1,0 +1,2020 @@
+{
+ "programs": [
+  {
+   "title": "Developing Scientific and Logical Mind",
+   "desc": "Develop critical thinking, reasoning and problem solving that transfers to every subject.",
+   "cat": "academics",
+   "badge": "Academics",
+   "image": "assets/img/scientific-thinking-sciplorex.jpg",
+   "fallback": "assets/img/art/prog-thinking.svg",
+   "alt": "Student presenting his Sciplorex science project on density and logical thinking",
+   "tags": [
+    {
+     "text": "Age 8+",
+     "gold": false
+    },
+    {
+     "text": "Thinking",
+     "gold": true
+    }
+   ],
+   "id": "developing-scientific-and-logical-mind",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Classical Arabic",
+   "desc": "Read and understand classical Arabic with structured grammar and vocabulary foundations.",
+   "cat": "academics",
+   "badge": "Academics",
+   "image": "assets/img/classical-arabic-project.jpg",
+   "fallback": "assets/img/art/prog-arabic.svg",
+   "alt": "Students presenting their Classical Arabic learning project",
+   "tags": [
+    {
+     "text": "Age 8+",
+     "gold": false
+    },
+    {
+     "text": "Language",
+     "gold": true
+    }
+   ],
+   "id": "classical-arabic",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Super Math Beginner",
+   "desc": "Number sense, mental math and problem-solving built through fun, structured practice.",
+   "cat": "academics",
+   "badge": "Academics",
+   "image": "assets/img/super-math-practice.jpg",
+   "fallback": "assets/img/art/gallery-3.svg",
+   "alt": "Students solving Super Maths workbook problems with calculators",
+   "tags": [
+    {
+     "text": "Age 7+",
+     "gold": false
+    },
+    {
+     "text": "Math",
+     "gold": true
+    }
+   ],
+   "id": "super-math-beginner",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Chemical Scientist Beginner",
+   "desc": "Hands-on chemistry experiments that build real scientific method and lab safety habits.",
+   "cat": "academics",
+   "badge": "Academics",
+   "image": "assets/img/chemical-scientist-lab.jpg",
+   "fallback": "assets/img/art/gallery-4.svg",
+   "alt": "Students doing a hands-on chemistry experiment with filters and samples",
+   "tags": [
+    {
+     "text": "Age 9+",
+     "gold": false
+    },
+    {
+     "text": "Science",
+     "gold": true
+    }
+   ],
+   "id": "chemical-scientist-beginner",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Young Biologist Beginner",
+   "desc": "Living systems, ecosystems and the human body explored through guided investigation.",
+   "cat": "academics",
+   "badge": "Academics",
+   "image": "assets/img/young-biologist-microscope.jpg",
+   "fallback": "assets/img/art/gallery-5.svg",
+   "alt": "Student in a lab coat presenting his biology project with microscopes",
+   "tags": [
+    {
+     "text": "Age 9+",
+     "gold": false
+    },
+    {
+     "text": "Science",
+     "gold": true
+    }
+   ],
+   "id": "young-biologist-beginner",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Photographic Memory",
+   "desc": "Memory techniques and recall strategies that make studying faster and more effective.",
+   "cat": "academics",
+   "badge": "Academics",
+   "image": "assets/img/photographic-memory-study.jpg",
+   "fallback": "assets/img/art/gallery-7.svg",
+   "alt": "Student studying and presenting his research project on a laptop",
+   "tags": [
+    {
+     "text": "Age 8+",
+     "gold": false
+    },
+    {
+     "text": "Memory",
+     "gold": true
+    }
+   ],
+   "id": "photographic-memory",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Your Human Calculator",
+   "desc": "Rapid mental arithmetic techniques for confident, calculator-free calculation.",
+   "cat": "academics",
+   "badge": "Academics",
+   "image": "assets/img/human-calculator-math-project.jpg",
+   "fallback": "assets/img/art/gallery-8.svg",
+   "alt": "Student presenting his clinometer and trigonometry math project",
+   "tags": [
+    {
+     "text": "Age 8+",
+     "gold": false
+    },
+    {
+     "text": "Math",
+     "gold": true
+    }
+   ],
+   "id": "your-human-calculator",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Public Speaking",
+   "desc": "Speak with confidence and influence. Structure, delivery, stage presence and debate.",
+   "cat": "leadership",
+   "badge": "Leadership",
+   "image": "assets/img/public-speaking-boy.jpg",
+   "fallback": "assets/img/art/prog-speaking.svg",
+   "alt": "Student giving a talk with a microphone in front of an audience",
+   "tags": [
+    {
+     "text": "Age 8+",
+     "gold": false
+    },
+    {
+     "text": "Confidence",
+     "gold": true
+    }
+   ],
+   "id": "public-speaking",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "The Leaders within me",
+   "desc": "Self-awareness, initiative and responsibility — helping every child find their own leadership style.",
+   "cat": "leadership",
+   "badge": "Leadership",
+   "image": "assets/img/leader-within-session.jpg",
+   "fallback": "assets/img/art/prog-leadership.svg",
+   "alt": "Students attending a Leader Within leadership session",
+   "tags": [
+    {
+     "text": "Age 9+",
+     "gold": false
+    },
+    {
+     "text": "Character",
+     "gold": true
+    }
+   ],
+   "id": "the-leaders-within-me",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Life Coaching Skills",
+   "desc": "Goal-setting, self-reflection and accountability skills coached in real sessions.",
+   "cat": "leadership",
+   "badge": "Leadership",
+   "image": "assets/img/life-coaching-hike.jpg",
+   "fallback": "assets/img/art/hero-4.svg",
+   "alt": "Students hiking a mountain trail together with their mentors",
+   "tags": [
+    {
+     "text": "Age 12+",
+     "gold": false
+    },
+    {
+     "text": "Coaching",
+     "gold": true
+    }
+   ],
+   "id": "life-coaching-skills",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Faculty Leadership and Excellence Training",
+   "desc": "Leadership and excellence practices for young people stepping into mentor roles.",
+   "cat": "leadership",
+   "badge": "Leadership",
+   "image": "assets/img/faculty-leadership-training.jpg",
+   "fallback": "assets/img/art/prog-leadership.svg",
+   "alt": "Trainer leading a faculty leadership and excellence workshop",
+   "tags": [
+    {
+     "text": "Age 13+",
+     "gold": false
+    },
+    {
+     "text": "Leadership",
+     "gold": true
+    }
+   ],
+   "id": "faculty-leadership-and-excellence-training",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "AI",
+   "desc": "Build real AI models, apps and intelligent solutions — from machine-learning basics to working prototypes.",
+   "cat": "professional ai-tech",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/ai-lab-screens.jpg",
+   "fallback": "assets/img/art/prog-ai.svg",
+   "alt": "AI lab screens showing AI video generation and personal branding projects",
+   "tags": [
+    {
+     "text": "Age 10+",
+     "gold": false
+    },
+    {
+     "text": "Project-Based",
+     "gold": true
+    }
+   ],
+   "id": "ai",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Robotics",
+   "desc": "Design, build and program robots. Sensors, motors, logic and competition-style challenges.",
+   "cat": "professional stem",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/robotics-robot-arm-kit.jpg",
+   "fallback": "assets/img/art/prog-robotics.svg",
+   "alt": "Robot arm built from a STEAM robotics kit with motors, wires and tools",
+   "tags": [
+    {
+     "text": "Age 9+",
+     "gold": false
+    },
+    {
+     "text": "Hands-On",
+     "gold": true
+    }
+   ],
+   "id": "robotics",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Young Engineers",
+   "desc": "Mechanical thinking, structures and machines through guided build-and-test engineering projects.",
+   "cat": "professional stem",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/young-engineers-maker-lab.jpg",
+   "fallback": "assets/img/art/prog-engineers.svg",
+   "alt": "Engineering lab with robot kits, a robot arm, tracked robots and a 3D printer laid out on tables",
+   "tags": [
+    {
+     "text": "Age 8+",
+     "gold": false
+    },
+    {
+     "text": "STEM",
+     "gold": true
+    }
+   ],
+   "id": "young-engineers",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "STEM",
+   "desc": "Science, Technology, Engineering and Math integrated into real experiments and investigations.",
+   "cat": "professional stem",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/stem-lego-scratch-booth.jpg",
+   "fallback": "assets/img/art/prog-stem.svg",
+   "alt": "Student presenting LEGO SPIKE Prime builds and Scratch coding projects",
+   "tags": [
+    {
+     "text": "Age 8+",
+     "gold": false
+    },
+    {
+     "text": "Lab Work",
+     "gold": true
+    }
+   ],
+   "id": "stem",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Young Data Scientist",
+   "desc": "Collect, clean, visualise and interpret data — the literacy behind every modern decision.",
+   "cat": "professional ai-tech",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/young-data-scientist-presentation.jpg",
+   "fallback": "assets/img/art/prog-data.svg",
+   "alt": "Student presenting his research to an audience with slides on screen",
+   "tags": [
+    {
+     "text": "Age 11+",
+     "gold": false
+    },
+    {
+     "text": "Analytics",
+     "gold": true
+    }
+   ],
+   "id": "young-data-scientist",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "VR",
+   "desc": "Explore and build in virtual reality — immersive design, 3D environments and interactive scenes.",
+   "cat": "professional ai-tech",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/vr-headset-setup.jpg",
+   "fallback": "assets/img/art/hero-3.svg",
+   "alt": "VR headset and controllers set up beside a laptop in the lab",
+   "tags": [
+    {
+     "text": "Age 10+",
+     "gold": false
+    },
+    {
+     "text": "Immersive",
+     "gold": true
+    }
+   ],
+   "id": "vr",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "3D Printing",
+   "desc": "Model, slice and print — students take an idea from digital design to a physical object.",
+   "cat": "professional stem",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/3d-printing-maker-lab.jpg",
+   "fallback": "assets/img/art/gallery-1.svg",
+   "alt": "Student running a live 3D print with 3D printed models on display",
+   "tags": [
+    {
+     "text": "Age 9+",
+     "gold": false
+    },
+    {
+     "text": "Maker Lab",
+     "gold": true
+    }
+   ],
+   "id": "3d-printing",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Young Entrepreneurship",
+   "desc": "Ideate, validate and launch a real venture — from a business model canvas to a live pitch day.",
+   "cat": "professional entrepreneurship",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/young-entrepreneur-innovative-labz.jpg",
+   "fallback": "assets/img/art/prog-entrepreneurship.svg",
+   "alt": "Young entrepreneur working on his Innovative Labz startup beside business books",
+   "tags": [
+    {
+     "text": "Age 11+",
+     "gold": false
+    },
+    {
+     "text": "Startup Lab",
+     "gold": true
+    }
+   ],
+   "id": "young-entrepreneurship",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Digital Marketing",
+   "desc": "Social media, content and basic campaign strategy for reaching a real audience online.",
+   "cat": "professional entrepreneurship",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/entrepreneurship-ai-booth.jpg",
+   "fallback": "assets/img/art/hero-2.svg",
+   "alt": "Student marketing his AI agents business with branded signage, a demo and QR codes",
+   "tags": [
+    {
+     "text": "Age 12+",
+     "gold": false
+    },
+    {
+     "text": "Marketing",
+     "gold": true
+    }
+   ],
+   "id": "digital-marketing",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "AIpreneur: Earn with AI",
+   "desc": "Turning AI tools into real income ideas — from concept to a first client or product.",
+   "cat": "professional entrepreneurship",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/aipreneur-ai-lab-booth.jpg",
+   "fallback": "assets/img/art/prog-ai.svg",
+   "alt": "Student presenting his AI Lab startup and custom GPT tools at his booth",
+   "tags": [
+    {
+     "text": "Age 13+",
+     "gold": false
+    },
+    {
+     "text": "Startup Lab",
+     "gold": true
+    }
+   ],
+   "id": "aipreneur-earn-with-ai",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "STEAM",
+   "desc": "Science, Technology, Engineering, Arts and Math combined into hands-on, creative projects.",
+   "cat": "professional stem",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/stem-robotics-booth.jpg",
+   "fallback": "assets/img/art/prog-stem.svg",
+   "alt": "Student presenting his STEM booth with robots, a 3D printer and hands-on builds",
+   "tags": [
+    {
+     "text": "Age 8+",
+     "gold": false
+    },
+    {
+     "text": "Lab Work",
+     "gold": true
+    }
+   ],
+   "id": "steam",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Empowering Youth through life skills",
+   "desc": "Practical everyday skills that build independence, confidence and real-world readiness.",
+   "cat": "professional lifeskills",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/life-skills-hands-on.jpg",
+   "fallback": "assets/img/art/about-art.svg",
+   "alt": "Students in gloves and safety glasses measuring and mixing ingredients in a hands-on life skills activity",
+   "tags": [
+    {
+     "text": "Age 10+",
+     "gold": false
+    },
+    {
+     "text": "Life Skills",
+     "gold": true
+    }
+   ],
+   "id": "empowering-youth-through-life-skills",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Creative Arts",
+   "desc": "A broad studio space to explore drawing, colour and mixed-media creative expression.",
+   "cat": "professional lifeskills",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/creative-arts-sketching.jpg",
+   "fallback": "assets/img/art/gallery-6.svg",
+   "alt": "Student sketching with pencils in a drawing session",
+   "tags": [
+    {
+     "text": "Age 7+",
+     "gold": false
+    },
+    {
+     "text": "Creative",
+     "gold": true
+    }
+   ],
+   "id": "creative-arts",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Arts mastery",
+   "desc": "Drawing, colour and craft fundamentals built through guided, hands-on studio practice.",
+   "cat": "professional lifeskills",
+   "badge": "Professional & Life Skills",
+   "image": "assets/img/arts-mastery-painting.jpg",
+   "fallback": "assets/img/art/about-art.svg",
+   "alt": "Student painting a framed art piece with a brush during a studio session",
+   "tags": [
+    {
+     "text": "Age 7+",
+     "gold": false
+    },
+    {
+     "text": "Creative",
+     "gold": true
+    }
+   ],
+   "id": "arts-mastery",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "Holistic Wellbeing (Mind, Body, Soul)",
+   "desc": "Coached sport and movement that build strength, discipline and wellbeing together.",
+   "cat": "fitness",
+   "badge": "Sports & Wellbeing",
+   "image": "assets/img/holistic-fitness-coaching.jpg",
+   "fallback": "assets/img/art/hero-4.svg",
+   "alt": "Coach briefing students before a sports session in the indoor hall",
+   "tags": [
+    {
+     "text": "All Ages",
+     "gold": false
+    },
+    {
+     "text": "Sports",
+     "gold": true
+    }
+   ],
+   "id": "holistic-wellbeing-mind-body-soul",
+   "onPrograms": true,
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "title": "AI",
+   "desc": "Build real AI models, apps and intelligent solutions — from machine-learning basics to working prototypes.",
+   "cat": "tech",
+   "badge": "Stem",
+   "image": "assets/img/ai-lab-screens.jpg",
+   "fallback": "assets/img/art/prog-ai.svg",
+   "alt": "AI lab screens showing AI video generation and personal branding projects",
+   "tags": [
+    {
+     "text": "Age 10+",
+     "gold": false
+    },
+    {
+     "text": "Project-Based",
+     "gold": true
+    }
+   ],
+   "id": "ai-home",
+   "onPrograms": false,
+   "onHome": true,
+   "visible": true
+  },
+  {
+   "title": "Robotics",
+   "desc": "Design, build and program robots. Sensors, motors, logic and competition-style challenges.",
+   "cat": "tech",
+   "badge": "Stem",
+   "image": "assets/img/robotics-robot-arm-kit.jpg",
+   "fallback": "assets/img/art/prog-robotics.svg",
+   "alt": "Robot arm built from a STEAM robotics kit with motors, wires and tools",
+   "tags": [
+    {
+     "text": "Age 9+",
+     "gold": false
+    },
+    {
+     "text": "Hands-On",
+     "gold": true
+    }
+   ],
+   "id": "robotics-home",
+   "onPrograms": false,
+   "onHome": true,
+   "visible": true
+  },
+  {
+   "title": "Young Entrepreneurship",
+   "desc": "Ideate, validate and launch a real venture — from a business model canvas to a live pitch day.",
+   "cat": "business",
+   "badge": "Business",
+   "image": "assets/img/young-entrepreneur-innovative-labz.jpg",
+   "fallback": "assets/img/art/prog-entrepreneurship.svg",
+   "alt": "Young entrepreneur working on his Innovative Labz startup beside business books",
+   "tags": [
+    {
+     "text": "Age 11+",
+     "gold": false
+    },
+    {
+     "text": "Startup Lab",
+     "gold": true
+    }
+   ],
+   "id": "young-entrepreneurship-home",
+   "onPrograms": false,
+   "onHome": true,
+   "visible": true
+  },
+  {
+   "title": "Young Engineers",
+   "desc": "Mechanical thinking, structures and machines through guided build-and-test engineering projects.",
+   "cat": "tech",
+   "badge": "Stem",
+   "image": "assets/img/young-engineers-maker-lab.jpg",
+   "fallback": "assets/img/art/prog-engineers.svg",
+   "alt": "Engineering lab with robot kits, a robot arm, tracked robots and a 3D printer laid out on tables",
+   "tags": [
+    {
+     "text": "Age 8+",
+     "gold": false
+    },
+    {
+     "text": "STEM",
+     "gold": true
+    }
+   ],
+   "id": "young-engineers-home",
+   "onPrograms": false,
+   "onHome": true,
+   "visible": true
+  },
+  {
+   "title": "Public Speaking",
+   "desc": "Speak with confidence and influence. Structure, delivery, stage presence and debate.",
+   "cat": "leadership",
+   "badge": "Leadership",
+   "image": "assets/img/public-speaking-boy.jpg",
+   "fallback": "assets/img/art/prog-speaking.svg",
+   "alt": "Student giving a talk with a microphone in front of an audience",
+   "tags": [
+    {
+     "text": "Age 8+",
+     "gold": false
+    },
+    {
+     "text": "Confidence",
+     "gold": true
+    }
+   ],
+   "id": "public-speaking-home",
+   "onPrograms": false,
+   "onHome": true,
+   "visible": true
+  },
+  {
+   "title": "The Leaders within me",
+   "desc": "Self-awareness, initiative and responsibility — helping every child find their own leadership style.",
+   "cat": "leadership",
+   "badge": "Leadership",
+   "image": "assets/img/leader-within-session.jpg",
+   "fallback": "assets/img/art/prog-leadership.svg",
+   "alt": "Students attending a Leader Within leadership session",
+   "tags": [
+    {
+     "text": "Age 9+",
+     "gold": false
+    },
+    {
+     "text": "Character",
+     "gold": true
+    }
+   ],
+   "id": "the-leaders-within-me-home",
+   "onPrograms": false,
+   "onHome": true,
+   "visible": true
+  }
+ ],
+ "projects": [
+  {
+   "title": "AI Chatbot",
+   "desc": "A virtual assistant trained by students to answer questions, hold context and help with homework.",
+   "image": "assets/img/ai-chatbot-booth.jpg",
+   "fallback": "assets/img/art/gallery-2.svg",
+   "alt": "Student presenting his AI agent booth project with a laptop and demo screen",
+   "id": "ai-chatbot",
+   "visible": true
+  },
+  {
+   "title": "Autonomous Robot Car",
+   "desc": "A self-navigating vehicle using ultrasonic sensors and custom line-following logic.",
+   "image": "assets/img/autonomous-robot-car-kit.jpg",
+   "fallback": "assets/img/art/gallery-1.svg",
+   "alt": "Robot car built from a LEGO SPIKE robotics kit with sensors and instruction booklet",
+   "id": "autonomous-robot-car",
+   "visible": true
+  },
+  {
+   "title": "Eco-Friendly Smart City",
+   "desc": "A scale model of a sustainable city with solar power, smart traffic and waste management.",
+   "image": "assets/img/eco-smart-city-model.jpg",
+   "fallback": "assets/img/art/gallery-3.svg",
+   "alt": "Student presenting a hand-built eco-friendly smart city model with towers and model buildings",
+   "id": "eco-friendly-smart-city",
+   "visible": true
+  },
+  {
+   "title": "Data Insights Dashboard",
+   "desc": "Students collected real survey data and built an interactive dashboard to present their findings.",
+   "image": "assets/img/data-insights-dashboard-demo.jpg",
+   "fallback": "assets/img/art/gallery-7.svg",
+   "alt": "Student presenting his programming project on screen with a microphone at a podium",
+   "id": "data-insights-dashboard",
+   "visible": true
+  }
+ ],
+ "team": [
+  {
+   "id": "khurram-hilal",
+   "name": "Khurram Hilal",
+   "role": "Chairman & Global CEO",
+   "bio": "Global CEO of a leading international Islamic Bank with close to 25 years of experience developing and promoting Islamic Banking across Asia, Africa, the Middle East and North America.",
+   "photo": "assets/img/team/2-1-217x300.jpg",
+   "fallback": "assets/img/avatars/kh.svg",
+   "onHome": true,
+   "visible": true
+  },
+  {
+   "id": "dr-aiza-ali-khan",
+   "name": "Dr Aiza Ali Khan",
+   "role": "Director & Educator",
+   "bio": "A Medical Doctor who has served in Government Hospitals of the UAE while pursuing specialisation in Gynecology. She holds an Alimah degree with Tafseer ul Quran specialisation and teaches Shariah courses.",
+   "photo": "assets/img/team/Screenshot-2024-07-24-165746-213x300.jpg",
+   "fallback": "assets/img/avatars/ak.svg",
+   "onHome": true,
+   "visible": true
+  },
+  {
+   "id": "abdul-moiz",
+   "name": "Abdul Moiz",
+   "role": "Institute Manager",
+   "bio": "MS Electrical Engineer (Embedded Systems, LUMS). An education professional with 13+ years as a teacher, IGCSE consultant, curriculum developer and academic leader.",
+   "photo": "assets/img/team/Untitled-1-217x300.jpg",
+   "fallback": "assets/img/avatars/am.svg",
+   "onHome": true,
+   "visible": true
+  },
+  {
+   "id": "hafiz-muhammad-ahsan",
+   "name": "Hafiz Muhammad Ahsan",
+   "role": "Head of Curriculum",
+   "bio": "M.Sc. Applied Physics and MS Data Science (AI Specialisation). 20 years in education as a teacher, curriculum designer and academic content writer. Author of 25+ children’s books.",
+   "photo": "assets/img/team/WhatsApp-Image-2024-06-28-at-12.46.05-PM-1-Copy-215x300.jpg",
+   "fallback": "assets/img/avatars/ha.svg",
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "id": "osama-ishtiaq",
+   "name": "Osama Ishtiaq",
+   "role": "Head of STEM",
+   "bio": "Manufacturing engineer and certified trainer. Has mentored 20+ kids’ startups and trained 500+ students through the Young Engineers Program. Director at Experimenterz.",
+   "photo": "assets/img/team/Sir-Osama1.jpg",
+   "fallback": "assets/img/avatars/oi.svg",
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "id": "faraaz-jalal",
+   "name": "Faraaz Jalal",
+   "role": "Head of Super Math",
+   "bio": "An experienced Mathematics Educator with over 15 years in the British Curriculum in Dubai. B.Sc. in Mathematics and an iPgCPP from Tellal Institute.",
+   "photo": "assets/img/team/234-233x300.jpg",
+   "fallback": "assets/img/avatars/fj.svg",
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "id": "mohamed-ashraf-nanabawa",
+   "name": "Mohamed Ashraf Nanabawa",
+   "role": "Head of Arabic",
+   "bio": "An Alimiyyat & Ifta graduate and Hafiz-ul-Qur’an, ranked 2nd in Fatawa Shariyyah. Experience across India, South Africa and the UAE as Qur’an Instructor and Advisor.",
+   "photo": "assets/img/team/Mufti-Ashraf-SB-233x300.jpg",
+   "fallback": "assets/img/avatars/mn.svg",
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "id": "coach-fateh",
+   "name": "Coach Fateh",
+   "role": "Head of Science",
+   "bio": "10 years of experience in the UK and UAE delivering sports to youth. Coached professional football clubs in the UK and holds a UEFA B License in football coaching.",
+   "photo": "assets/img/team/WhatsApp-Image-2024-06-28-at-12.46.05-PM-Copy-Copy-214x300.jpg",
+   "fallback": "assets/img/avatars/cf.svg",
+   "onHome": false,
+   "visible": true
+  },
+  {
+   "id": "osama-bin-arshad",
+   "name": "Osama Bin Arshad",
+   "role": "IT & Operations",
+   "bio": "An IT professional with over 14 years of experience in IT and administration. Holds a BS in Computer Science from the University of the Punjab.",
+   "photo": "assets/img/team/Osama-1-215x300.jpg",
+   "fallback": "assets/img/avatars/oa.svg",
+   "onHome": false,
+   "visible": true
+  }
+ ],
+ "testimonials": [
+  {
+   "id": "q1",
+   "stars": 5,
+   "quote": "After the bootcamp I saw a real change in my child — more happiness, more confidence, more respect and a genuine curiosity to learn. That combination is exactly what we were hoping for.",
+   "name": "Mrs. Ali Akram Sheikh",
+   "label": "Parent",
+   "initials": "AS",
+   "visible": true
+  },
+  {
+   "id": "q2",
+   "stars": 5,
+   "quote": "My son was inspired by the vibrant environment here. What stood out to me was the faculty’s commitment to character building and discipline, not just academics.",
+   "name": "Mr. Yunus Abdur Rehman",
+   "label": "Parent",
+   "initials": "YR",
+   "visible": true
+  },
+  {
+   "id": "q3",
+   "stars": 5,
+   "quote": "After the camp my son actually started thinking about his future. He came home with clarity about the direction he wants to take — I did not expect that so early.",
+   "name": "Mrs. Jamal",
+   "label": "Parent",
+   "initials": "MJ",
+   "visible": true
+  },
+  {
+   "id": "q4",
+   "stars": 5,
+   "quote": "The project my daughter presented at the end of the term was better than anything I built at university. She explained every decision she made.",
+   "name": "Mr. Haroon Iqbal",
+   "label": "Parent",
+   "initials": "HI",
+   "visible": true
+  },
+  {
+   "id": "q5",
+   "stars": 5,
+   "quote": "Small groups make all the difference. The mentors actually know my son — his strengths, his gaps, what motivates him.",
+   "name": "Mrs. Sadia Rehman",
+   "label": "Parent",
+   "initials": "SR",
+   "visible": true
+  }
+ ],
+ "albums": [
+  {
+   "id": "young-leaders-hub-new-campus",
+   "title": "Young Leaders Hub — New Campus",
+   "eyebrow": "New Campus",
+   "lead": "A first look inside our new home — the Forest Hall, themed classrooms, corridors, the faculty lounge and more.",
+   "filters": [
+    {
+     "key": "forest",
+     "label": "Forest Hall"
+    },
+    {
+     "key": "corridors",
+     "label": "Corridors & Classrooms"
+    },
+    {
+     "key": "ocean",
+     "label": "Ocean Classroom"
+    },
+    {
+     "key": "reception",
+     "label": "Reception"
+    },
+    {
+     "key": "faculty",
+     "label": "Faculty Lounge"
+    },
+    {
+     "key": "locker",
+     "label": "Locker & Rest Area"
+    },
+    {
+     "key": "art",
+     "label": "Wall Art"
+    }
+   ],
+   "photos": [
+    {
+     "image": "assets/img/campus/forest-hall-1.jpg",
+     "full": "assets/img/campus/forest-hall-1.jpg",
+     "alt": "Forest Hall main assembly hall with jungle mural and rows of chairs",
+     "cat": "forest",
+     "label": "Forest Hall",
+     "caption": "Main Assembly Hall",
+     "lbcap": "Forest Hall — Main Assembly Hall",
+     "size": "big"
+    },
+    {
+     "image": "assets/img/campus/forest-hall-2.jpg",
+     "full": "assets/img/campus/forest-hall-2.jpg",
+     "alt": "Forest Hall with cheetah fun facts wall and jungle greenery",
+     "cat": "forest",
+     "label": "Forest Hall",
+     "caption": "Cheetah Fun Facts Wall",
+     "lbcap": "Forest Hall — Cheetah Fun Facts Wall",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/campus/forest-hall-3.jpg",
+     "full": "assets/img/campus/forest-hall-3.jpg",
+     "alt": "Forest Hall reading corner with bookshelves and jungle wall art",
+     "cat": "forest",
+     "label": "Forest Hall",
+     "caption": "Reading Corner & Library",
+     "lbcap": "Forest Hall — Reading Corner & Library",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/campus/forest-hall-event.jpg",
+     "full": "assets/img/campus/forest-hall-event.jpg",
+     "alt": "Forest Hall decorated with moon and star lights and a snacks table for an event",
+     "cat": "forest",
+     "label": "Forest Hall",
+     "caption": "Set Up for a Celebration",
+     "lbcap": "Forest Hall — Set Up for a Celebration",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/campus/ocean-classroom.jpg",
+     "full": "assets/img/campus/ocean-classroom.jpg",
+     "alt": "Ocean-themed classroom with kidney-shaped tables and whiteboard",
+     "cat": "ocean",
+     "label": "Classrooms",
+     "caption": "Ocean-Themed Classroom",
+     "lbcap": "Ocean-Themed Classroom",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/campus/corridor-calligraphy.jpg",
+     "full": "assets/img/campus/corridor-calligraphy.jpg",
+     "alt": "Corridor with Arabic calligraphy artwork and a water cooler",
+     "cat": "corridors",
+     "label": "Corridors",
+     "caption": "Arabic Calligraphy Art",
+     "lbcap": "Corridor — Arabic Calligraphy Art",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/campus/corridor-classrooms.jpg",
+     "full": "assets/img/campus/corridor-classrooms.jpg",
+     "alt": "Corridor leading to Classroom 03 and Classroom 04 with a living green wall",
+     "cat": "corridors",
+     "label": "Corridors",
+     "caption": "Classrooms 03 & 04",
+     "lbcap": "Corridor — Classrooms 03 & 04",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/campus/corridor-ocean-mural.jpg",
+     "full": "assets/img/campus/corridor-ocean-mural.jpg",
+     "alt": "Corridor with floral wall art beside an ocean-themed classroom window",
+     "cat": "corridors",
+     "label": "Corridors",
+     "caption": "Floral & Ocean Murals",
+     "lbcap": "Corridor — Floral & Ocean Murals",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/campus/corridor-long.jpg",
+     "full": "assets/img/campus/corridor-long.jpg",
+     "alt": "Long corridor lined with colourful arched classroom doors",
+     "cat": "corridors",
+     "label": "Corridors",
+     "caption": "Colourful Classroom Wing",
+     "lbcap": "Corridor — Colourful Classroom Wing",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/campus/corridor-welcome-lockers.jpg",
+     "full": "assets/img/campus/corridor-welcome-lockers.jpg",
+     "alt": "Welcome corridor with floral mural, lockers and a rainbow rug",
+     "cat": "corridors",
+     "label": "Corridors",
+     "caption": "Welcome Corridor & Lockers",
+     "lbcap": "Welcome Corridor & Lockers",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/campus/reception-logo.jpg",
+     "full": "assets/img/campus/reception-logo.jpg",
+     "alt": "Reception area with the Young Leaders Hub logo wall",
+     "cat": "reception",
+     "label": "Reception",
+     "caption": "Reception & Lobby",
+     "lbcap": "Reception & Lobby",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/campus/faculty-lounge-corridor.jpg",
+     "full": "assets/img/campus/faculty-lounge-corridor.jpg",
+     "alt": "Corridor leading into the Faculty Lounge with a living green wall",
+     "cat": "faculty",
+     "label": "Faculty Lounge",
+     "caption": "Faculty Lounge Entrance",
+     "lbcap": "Faculty Lounge Entrance",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/campus/faculty-lounge-laptop.jpg",
+     "full": "assets/img/campus/faculty-lounge-laptop.jpg",
+     "alt": "Faculty Lounge seating nook with a mentor working on a laptop",
+     "cat": "faculty",
+     "label": "Faculty Lounge",
+     "caption": "Quiet Work Nook",
+     "lbcap": "Faculty Lounge — Quiet Work Nook",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/campus/faculty-lounge-desks.jpg",
+     "full": "assets/img/campus/faculty-lounge-desks.jpg",
+     "alt": "Faculty Lounge workstations with mentors at their desks",
+     "cat": "faculty",
+     "label": "Faculty Lounge",
+     "caption": "Workstations",
+     "lbcap": "Faculty Lounge — Workstations",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/campus/locker-rest-area.jpg",
+     "full": "assets/img/campus/locker-rest-area.jpg",
+     "alt": "Student locker and rest area with cushioned bench seating",
+     "cat": "locker",
+     "label": "Locker Area",
+     "caption": "Student Locker & Rest Area",
+     "lbcap": "Student Locker & Rest Area",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/campus/wall-art-inspiration.jpg",
+     "full": "assets/img/campus/wall-art-inspiration.jpg",
+     "alt": "Inspirational wall art including a 'Hold Your Dream' poster",
+     "cat": "art",
+     "label": "Wall Art",
+     "caption": "Inspirational Wall Art",
+     "lbcap": "Inspirational Wall Art",
+     "size": "normal"
+    }
+   ],
+   "visible": true
+  },
+  {
+   "id": "jiu-jitsu-competition-winners",
+   "title": "Jiu Jitsu Competition Winners",
+   "eyebrow": "Competition & Training",
+   "lead": "Champions, action-packed matches, team celebrations and podium moments from our latest Jiu Jitsu tournament.",
+   "filters": [
+    {
+     "key": "winners",
+     "label": "Medal Winners"
+    },
+    {
+     "key": "action",
+     "label": "Action Shots"
+    },
+    {
+     "key": "team",
+     "label": "Team Photos"
+    },
+    {
+     "key": "podium",
+     "label": "Podium Moments"
+    }
+   ],
+   "photos": [
+    {
+     "image": "assets/img/jiu-jitsu/jj-winner-1.jpg",
+     "full": "assets/img/jiu-jitsu/jj-winner-1.jpg",
+     "alt": "Young Jiu Jitsu competitor holding up a bronze medal",
+     "cat": "winners",
+     "label": "Medal Winners",
+     "caption": "Bronze Medal Close-Up",
+     "lbcap": "Bronze Medal Close-Up",
+     "size": "big"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-winner-2.jpg",
+     "full": "assets/img/jiu-jitsu/jj-winner-2.jpg",
+     "alt": "Young Jiu Jitsu competitor wearing a bronze medal",
+     "cat": "winners",
+     "label": "Medal Winners",
+     "caption": "Bronze Medal Champion",
+     "lbcap": "Bronze Medal Champion",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-winner-3.jpg",
+     "full": "assets/img/jiu-jitsu/jj-winner-3.jpg",
+     "alt": "Competitor holding a King of the Mat 2025 bronze medal, giving a thumbs up",
+     "cat": "winners",
+     "label": "Medal Winners",
+     "caption": "King of the Mat — Bronze",
+     "lbcap": "King of the Mat — Bronze",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-winner-4.jpg",
+     "full": "assets/img/jiu-jitsu/jj-winner-4.jpg",
+     "alt": "Competitor wearing a King of the Mat 2025 gold medal, giving two thumbs up",
+     "cat": "winners",
+     "label": "Medal Winners",
+     "caption": "King of the Mat — Gold",
+     "lbcap": "King of the Mat — Gold",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-winner-5.jpg",
+     "full": "assets/img/jiu-jitsu/jj-winner-5.jpg",
+     "alt": "Medal winner posing with his bronze medal in front of the Young Leaders Hub sign",
+     "cat": "winners",
+     "label": "Medal Winners",
+     "caption": "Champion at the Hub",
+     "lbcap": "Champion at the Hub",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-winner-6.jpg",
+     "full": "assets/img/jiu-jitsu/jj-winner-6.jpg",
+     "alt": "Medal winner posing with his bronze medal in front of the Young Leaders Hub sign",
+     "cat": "winners",
+     "label": "Medal Winners",
+     "caption": "Proud Bronze Finish",
+     "lbcap": "Proud Bronze Finish",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-winner-7.jpg",
+     "full": "assets/img/jiu-jitsu/jj-winner-7.jpg",
+     "alt": "Gold medal winner giving a thumbs up in front of the Young Leaders Hub sign",
+     "cat": "winners",
+     "label": "Medal Winners",
+     "caption": "Gold Medal Celebration",
+     "lbcap": "Gold Medal Celebration",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-action-1.jpg",
+     "full": "assets/img/jiu-jitsu/jj-action-1.jpg",
+     "alt": "Competitor in a fighting stance wearing his gold medal",
+     "cat": "action",
+     "label": "Action",
+     "caption": "Ready Stance",
+     "lbcap": "Ready Stance",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-action-2.jpg",
+     "full": "assets/img/jiu-jitsu/jj-action-2.jpg",
+     "alt": "Referee raising a competitor's hand in victory on the mat",
+     "cat": "action",
+     "label": "Action",
+     "caption": "Hand Raised in Victory",
+     "lbcap": "Hand Raised in Victory",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-action-3.jpg",
+     "full": "assets/img/jiu-jitsu/jj-action-3.jpg",
+     "alt": "Referee declaring the winner by raising his arm after the match",
+     "cat": "action",
+     "label": "Action",
+     "caption": "Winner Declared",
+     "lbcap": "Winner Declared",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-action-4.jpg",
+     "full": "assets/img/jiu-jitsu/jj-action-4.jpg",
+     "alt": "Referee raising the winning competitor's hand with the scoreboard behind them",
+     "cat": "action",
+     "label": "Action",
+     "caption": "Match Point Victory",
+     "lbcap": "Match Point Victory",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-team-1.jpg",
+     "full": "assets/img/jiu-jitsu/jj-team-1.jpg",
+     "alt": "Three Jiu Jitsu medalists standing together wearing their medals",
+     "cat": "team",
+     "label": "Team",
+     "caption": "Three Medalists",
+     "lbcap": "Three Medalists",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-team-2.jpg",
+     "full": "assets/img/jiu-jitsu/jj-team-2.jpg",
+     "alt": "Three medalists giving a thumbs up while holding their medals",
+     "cat": "team",
+     "label": "Team",
+     "caption": "Squad Celebration",
+     "lbcap": "Squad Celebration",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-team-3.jpg",
+     "full": "assets/img/jiu-jitsu/jj-team-3.jpg",
+     "alt": "Three medalists posing in front of the Young Leaders Hub sign",
+     "cat": "team",
+     "label": "Team",
+     "caption": "Team at the Hub",
+     "lbcap": "Team at the Hub",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-team-4.jpg",
+     "full": "assets/img/jiu-jitsu/jj-team-4.jpg",
+     "alt": "Two medalists posing with their coach after the tournament",
+     "cat": "team",
+     "label": "Team",
+     "caption": "With Coach After the Win",
+     "lbcap": "With Coach After the Win",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/jiu-jitsu/jj-podium-1.jpg",
+     "full": "assets/img/jiu-jitsu/jj-podium-1.jpg",
+     "alt": "Three competitors in gis standing on the official tournament podium with their medals",
+     "cat": "podium",
+     "label": "Podium",
+     "caption": "Official Podium Ceremony",
+     "lbcap": "Official Podium Ceremony",
+     "size": "wide"
+    }
+   ],
+   "visible": true
+  },
+  {
+   "id": "sessions-by-experts",
+   "title": "Sessions by Experts",
+   "eyebrow": "Guest Session",
+   "lead": "Highlights from our Professional Finance session in the Forest Hall — the keynote, student engagement, the audience and moments behind the scenes.",
+   "filters": [
+    {
+     "key": "keynote",
+     "label": "Keynote Address"
+    },
+    {
+     "key": "engagement",
+     "label": "Student Engagement"
+    },
+    {
+     "key": "audience",
+     "label": "Audience"
+    },
+    {
+     "key": "networking",
+     "label": "Behind the Scenes"
+    }
+   ],
+   "photos": [
+    {
+     "image": "assets/img/finance-talk/ft-keynote-1.jpg",
+     "full": "assets/img/finance-talk/ft-keynote-1.jpg",
+     "alt": "Abdullah Taimoor addressing students from the podium in the Forest Hall",
+     "cat": "keynote",
+     "label": "Keynote",
+     "caption": "Addressing the Students",
+     "lbcap": "Addressing the Students",
+     "size": "big"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-keynote-2.jpg",
+     "full": "assets/img/finance-talk/ft-keynote-2.jpg",
+     "alt": "Speaker explaining a concept from the podium in the library",
+     "cat": "keynote",
+     "label": "Keynote",
+     "caption": "Explaining Key Concepts",
+     "lbcap": "Explaining Key Concepts",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-keynote-3.jpg",
+     "full": "assets/img/finance-talk/ft-keynote-3.jpg",
+     "alt": "Speaker delivering the keynote address in the Forest Hall",
+     "cat": "keynote",
+     "label": "Keynote",
+     "caption": "Keynote in the Forest Hall",
+     "lbcap": "Keynote in the Forest Hall",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-keynote-4.jpg",
+     "full": "assets/img/finance-talk/ft-keynote-4.jpg",
+     "alt": "Speaker mid-address at the podium in the Forest Hall",
+     "cat": "keynote",
+     "label": "Keynote",
+     "caption": "In Full Flow",
+     "lbcap": "In Full Flow",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-keynote-5.jpg",
+     "full": "assets/img/finance-talk/ft-keynote-5.jpg",
+     "alt": "Speaker addressing the full room from the podium",
+     "cat": "keynote",
+     "label": "Keynote",
+     "caption": "Speaking to the Room",
+     "lbcap": "Speaking to the Room",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-keynote-6.jpg",
+     "full": "assets/img/finance-talk/ft-keynote-6.jpg",
+     "alt": "Speaker pausing mid-talk at the podium in the Forest Hall",
+     "cat": "keynote",
+     "label": "Keynote",
+     "caption": "A Moment of Reflection",
+     "lbcap": "A Moment of Reflection",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-keynote-7.jpg",
+     "full": "assets/img/finance-talk/ft-keynote-7.jpg",
+     "alt": "Speaker addressing students from the podium in the library",
+     "cat": "keynote",
+     "label": "Keynote",
+     "caption": "Podium Address",
+     "lbcap": "Podium Address",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-keynote-8.jpg",
+     "full": "assets/img/finance-talk/ft-keynote-8.jpg",
+     "alt": "Speaker delivering closing remarks at the podium",
+     "cat": "keynote",
+     "label": "Keynote",
+     "caption": "Closing Thoughts",
+     "lbcap": "Closing Thoughts",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-engagement-1.jpg",
+     "full": "assets/img/finance-talk/ft-engagement-1.jpg",
+     "alt": "Abdullah Taimoor and a colleague speaking with a student in the Forest Hall",
+     "cat": "engagement",
+     "label": "Engagement",
+     "caption": "One-on-One Guidance",
+     "lbcap": "One-on-One Guidance",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-engagement-2.jpg",
+     "full": "assets/img/finance-talk/ft-engagement-2.jpg",
+     "alt": "Student sharing his reflections in front of the group during the session",
+     "cat": "engagement",
+     "label": "Engagement",
+     "caption": "A Student Shares His Thoughts",
+     "lbcap": "A Student Shares His Thoughts",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-audience-1.jpg",
+     "full": "assets/img/finance-talk/ft-audience-1.jpg",
+     "alt": "Students seated and listening attentively in the Forest Hall",
+     "cat": "audience",
+     "label": "Audience",
+     "caption": "Students Listening In",
+     "lbcap": "Students Listening In",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-audience-2.jpg",
+     "full": "assets/img/finance-talk/ft-audience-2.jpg",
+     "alt": "Students seated in the library for the talk",
+     "cat": "audience",
+     "label": "Audience",
+     "caption": "Full House",
+     "lbcap": "Full House",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-audience-3.jpg",
+     "full": "assets/img/finance-talk/ft-audience-3.jpg",
+     "alt": "Students listening closely during the session",
+     "cat": "audience",
+     "label": "Audience",
+     "caption": "Engaged Audience",
+     "lbcap": "Engaged Audience",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-audience-4.jpg",
+     "full": "assets/img/finance-talk/ft-audience-4.jpg",
+     "alt": "Students seated in the Forest Hall during the talk",
+     "cat": "audience",
+     "label": "Audience",
+     "caption": "Taking It All In",
+     "lbcap": "Taking It All In",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-audience-5.jpg",
+     "full": "assets/img/finance-talk/ft-audience-5.jpg",
+     "alt": "Students and a mentor seated together listening to the talk",
+     "cat": "audience",
+     "label": "Audience",
+     "caption": "Students and Mentors Together",
+     "lbcap": "Students and Mentors Together",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-audience-6.jpg",
+     "full": "assets/img/finance-talk/ft-audience-6.jpg",
+     "alt": "Students and a mentor seated in the library during the session",
+     "cat": "audience",
+     "label": "Audience",
+     "caption": "Listening Closely",
+     "lbcap": "Listening Closely",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-audience-7.jpg",
+     "full": "assets/img/finance-talk/ft-audience-7.jpg",
+     "alt": "An attendee listening attentively during the talk",
+     "cat": "audience",
+     "label": "Audience",
+     "caption": "An Attendee in the Crowd",
+     "lbcap": "An Attendee in the Crowd",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-networking-1.jpg",
+     "full": "assets/img/finance-talk/ft-networking-1.jpg",
+     "alt": "Two attendees greeting each other with a handshake",
+     "cat": "networking",
+     "label": "Behind the Scenes",
+     "caption": "A Warm Welcome",
+     "lbcap": "A Warm Welcome",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-networking-2.jpg",
+     "full": "assets/img/finance-talk/ft-networking-2.jpg",
+     "alt": "A conversation between two attendees near the Admin Pod",
+     "cat": "networking",
+     "label": "Behind the Scenes",
+     "caption": "A Quiet Conversation",
+     "lbcap": "A Quiet Conversation",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/finance-talk/ft-networking-3.jpg",
+     "full": "assets/img/finance-talk/ft-networking-3.jpg",
+     "alt": "A conversation between attendees by the living wall",
+     "cat": "networking",
+     "label": "Behind the Scenes",
+     "caption": "Catching Up",
+     "lbcap": "Catching Up",
+     "size": "wide"
+    }
+   ],
+   "visible": true
+  },
+  {
+   "id": "field-trips",
+   "title": "Field Trips",
+   "eyebrow": "Community Event",
+   "lead": "A day out with our fathers and sons — the desert trail walk in the morning, horses and the farm, then some pool time in the afternoon.",
+   "filters": [
+    {
+     "key": "gather",
+     "label": "Gathering & Briefing"
+    },
+    {
+     "key": "trail",
+     "label": "The Trail Walk"
+    },
+    {
+     "key": "moment",
+     "label": "Moments Together"
+    },
+    {
+     "key": "rest",
+     "label": "Rest & Relax"
+    },
+    {
+     "key": "swim",
+     "label": "Pool Time"
+    },
+    {
+     "key": "horses",
+     "label": "Horses & Farm"
+    },
+    {
+     "key": "portrait",
+     "label": "Family Portraits"
+    }
+   ],
+   "photos": [
+    {
+     "image": "assets/img/fathers-day-out/fdo-gather-1.jpg",
+     "full": "assets/img/fathers-day-out/fdo-gather-1-full.jpg",
+     "alt": "Fathers and sons gathered in a circle for the morning briefing under the trees",
+     "cat": "gather",
+     "label": "Gathering",
+     "caption": "Morning Briefing Circle",
+     "lbcap": "Morning Briefing Circle",
+     "size": "big"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-gather-2.jpg",
+     "full": "assets/img/fathers-day-out/fdo-gather-2-full.jpg",
+     "alt": "Group listening as the plan for the day is shared",
+     "cat": "gather",
+     "label": "Gathering",
+     "caption": "Sharing the Plan",
+     "lbcap": "Sharing the Plan",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-gather-3.jpg",
+     "full": "assets/img/fathers-day-out/fdo-gather-3-full.jpg",
+     "alt": "Fathers talking together before the walk begins",
+     "cat": "gather",
+     "label": "Gathering",
+     "caption": "Getting Ready to Set Off",
+     "lbcap": "Getting Ready to Set Off",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-gather-4.jpg",
+     "full": "assets/img/fathers-day-out/fdo-gather-4-full.jpg",
+     "alt": "Group leader giving instructions to fathers and sons before setting off",
+     "cat": "gather",
+     "label": "Gathering",
+     "caption": "Instructions Before the Walk",
+     "lbcap": "Instructions Before the Walk",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-gather-5.jpg",
+     "full": "assets/img/fathers-day-out/fdo-gather-5-full.jpg",
+     "alt": "Full group of fathers and sons gathered before the trail walk",
+     "cat": "gather",
+     "label": "Gathering",
+     "caption": "Fathers and Sons Assemble",
+     "lbcap": "Fathers and Sons Assemble",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-gather-6.jpg",
+     "full": "assets/img/fathers-day-out/fdo-gather-6-full.jpg",
+     "alt": "Leader explaining the route to the gathered group",
+     "cat": "gather",
+     "label": "Gathering",
+     "caption": "Explaining the Route",
+     "lbcap": "Explaining the Route",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-gather-7.jpg",
+     "full": "assets/img/fathers-day-out/fdo-gather-7-full.jpg",
+     "alt": "Fathers standing together in the shade before heading out",
+     "cat": "gather",
+     "label": "Gathering",
+     "caption": "A Pause Before the Trail",
+     "lbcap": "A Pause Before the Trail",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-1.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-1-full.jpg",
+     "alt": "Group walking along the sandy desert trail through the trees",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Onto the Sand Trail",
+     "lbcap": "Onto the Sand Trail",
+     "size": "big"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-2.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-2-full.jpg",
+     "alt": "Group leader waving as fathers and sons follow along the trail",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Leading the Way",
+     "lbcap": "Leading the Way",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-3.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-3-full.jpg",
+     "alt": "Boys leading the group along the sandy path",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Sons Out in Front",
+     "lbcap": "Sons Out in Front",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-4.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-4-full.jpg",
+     "alt": "Fathers and sons spread out along the bright sandy trail",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Spread Along the Path",
+     "lbcap": "Spread Along the Path",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-5.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-5-full.jpg",
+     "alt": "Fathers and sons walking side by side on the trail",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Walking Together",
+     "lbcap": "Walking Together",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-6.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-6-full.jpg",
+     "alt": "Group of fathers making their way along the desert track",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Following the Track",
+     "lbcap": "Following the Track",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-7.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-7-full.jpg",
+     "alt": "The group heading off down the trail into the trees",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Into the Distance",
+     "lbcap": "Into the Distance",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-8.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-8-full.jpg",
+     "alt": "Walkers passing a yellow trail marker on the path",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Past the Trail Marker",
+     "lbcap": "Past the Trail Marker",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-9.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-9-full.jpg",
+     "alt": "Fathers and a son walking steadily along the sandy trail",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Steady Pace",
+     "lbcap": "Steady Pace",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-moment-1.jpg",
+     "full": "assets/img/fathers-day-out/fdo-moment-1-full.jpg",
+     "alt": "Group leader giving a peace sign on the sandy trail",
+     "cat": "moment",
+     "label": "Moments",
+     "caption": "Peace on the Trail",
+     "lbcap": "Peace on the Trail",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-moment-2.jpg",
+     "full": "assets/img/fathers-day-out/fdo-moment-2-full.jpg",
+     "alt": "Fathers and sons walking through the wooden archway on the trail",
+     "cat": "moment",
+     "label": "Moments",
+     "caption": "Through the Wooden Arch",
+     "lbcap": "Through the Wooden Arch",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-rest-1.jpg",
+     "full": "assets/img/fathers-day-out/fdo-rest-1-full.jpg",
+     "alt": "Group resting on tree-stump seats in the shade",
+     "cat": "rest",
+     "label": "Rest Stop",
+     "caption": "Catching a Breath",
+     "lbcap": "Catching a Breath",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-rest-2.jpg",
+     "full": "assets/img/fathers-day-out/fdo-rest-2-full.jpg",
+     "alt": "Fathers and sons resting near the rope bridge and stump seating",
+     "cat": "rest",
+     "label": "Rest Stop",
+     "caption": "Rest Area by the Rope Bridge",
+     "lbcap": "Rest Area by the Rope Bridge",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-gather-8.jpg",
+     "full": "assets/img/fathers-day-out/fdo-gather-8-full.jpg",
+     "alt": "Fathers and sons gathered on the trail checking the route together",
+     "cat": "gather",
+     "label": "Gathering",
+     "caption": "Checking the Route Together",
+     "lbcap": "Checking the Route Together",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-10.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-10-full.jpg",
+     "alt": "Group making their way up the sandy desert track",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Heading Up the Track",
+     "lbcap": "Heading Up the Track",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-11.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-11-full.jpg",
+     "alt": "Fathers and sons regrouping partway along the trail",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Regrouping on the Path",
+     "lbcap": "Regrouping on the Path",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-trail-12.jpg",
+     "full": "assets/img/fathers-day-out/fdo-trail-12-full.jpg",
+     "alt": "Group walking the desert trail in the morning light",
+     "cat": "trail",
+     "label": "The Trail",
+     "caption": "Morning Light on the Trail",
+     "lbcap": "Morning Light on the Trail",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-deck-1.jpg",
+     "full": "assets/img/fathers-day-out/fdo-deck-1-full.jpg",
+     "alt": "Coach walking the poolside filming the swimmers racing",
+     "cat": "swim",
+     "label": "Poolside",
+     "caption": "Cheering Them On",
+     "lbcap": "Cheering Them On",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-horses-1.jpg",
+     "full": "assets/img/fathers-day-out/fdo-horses-1-full.jpg",
+     "alt": "Father reaching out to greet a white horse at the stables",
+     "cat": "horses",
+     "label": "Horses",
+     "caption": "Meeting the White Horse",
+     "lbcap": "Meeting the White Horse",
+     "size": "big"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-horses-2.jpg",
+     "full": "assets/img/fathers-day-out/fdo-horses-2-full.jpg",
+     "alt": "Young man petting a chestnut horse over the paddock rail",
+     "cat": "horses",
+     "label": "Horses",
+     "caption": "A Gentle Hello",
+     "lbcap": "A Gentle Hello",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-horses-3.jpg",
+     "full": "assets/img/fathers-day-out/fdo-horses-3-full.jpg",
+     "alt": "Group of fathers and a boy taking turns petting the chestnut horse",
+     "cat": "horses",
+     "label": "Horses",
+     "caption": "Everyone Gets a Turn",
+     "lbcap": "Everyone Gets a Turn",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-lesson-5.jpg",
+     "full": "assets/img/fathers-day-out/fdo-lesson-5-full.jpg",
+     "alt": "Instructor at the wall while the whole group practises in the pool",
+     "cat": "swim",
+     "label": "Swim Lessons",
+     "caption": "The Whole Group Practising",
+     "lbcap": "The Whole Group Practising",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-swim-12.jpg",
+     "full": "assets/img/fathers-day-out/fdo-swim-12-full.jpg",
+     "alt": "Boy leaping from the poolside into the water",
+     "cat": "swim",
+     "label": "Swimming",
+     "caption": "Taking the Leap",
+     "lbcap": "Taking the Leap",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-rest-3.jpg",
+     "full": "assets/img/fathers-day-out/fdo-rest-3-full.jpg",
+     "alt": "Two fathers relaxing on wooden loungers on the lawn",
+     "cat": "rest",
+     "label": "Rest & Relax",
+     "caption": "Afternoon on the Loungers",
+     "lbcap": "Afternoon on the Loungers",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-rest-4.jpg",
+     "full": "assets/img/fathers-day-out/fdo-rest-4-full.jpg",
+     "alt": "Father resting on a lounger chatting in the sunshine",
+     "cat": "rest",
+     "label": "Rest & Relax",
+     "caption": "Catching Up in the Sun",
+     "lbcap": "Catching Up in the Sun",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-rest-5.jpg",
+     "full": "assets/img/fathers-day-out/fdo-rest-5-full.jpg",
+     "alt": "Father taking it easy on a lounger beside the lawn",
+     "cat": "rest",
+     "label": "Rest & Relax",
+     "caption": "Taking It Easy",
+     "lbcap": "Taking It Easy",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-portrait-1.jpg",
+     "full": "assets/img/fathers-day-out/fdo-portrait-1-full.jpg",
+     "alt": "Father and his two sons sitting together on the garden swing",
+     "cat": "portrait",
+     "label": "Family Portraits",
+     "caption": "Father and Sons on the Swing",
+     "lbcap": "Father and Sons on the Swing",
+     "size": "big"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-portrait-2.jpg",
+     "full": "assets/img/fathers-day-out/fdo-portrait-2-full.jpg",
+     "alt": "Father with an arm around each of his two sons on the swing",
+     "cat": "portrait",
+     "label": "Family Portraits",
+     "caption": "An Arm Around Each",
+     "lbcap": "An Arm Around Each",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-portrait-3.jpg",
+     "full": "assets/img/fathers-day-out/fdo-portrait-3-full.jpg",
+     "alt": "Father and his two sons posing together on the swing",
+     "cat": "portrait",
+     "label": "Family Portraits",
+     "caption": "Matching Smiles",
+     "lbcap": "Matching Smiles",
+     "size": "normal"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-portrait-4.jpg",
+     "full": "assets/img/fathers-day-out/fdo-portrait-4-full.jpg",
+     "alt": "Smiling father seated on the swing with his two young sons",
+     "cat": "portrait",
+     "label": "Family Portraits",
+     "caption": "A Proud Father",
+     "lbcap": "A Proud Father",
+     "size": "tall"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-portrait-5.jpg",
+     "full": "assets/img/fathers-day-out/fdo-portrait-5-full.jpg",
+     "alt": "Father and son sitting on the swing with cats resting nearby",
+     "cat": "portrait",
+     "label": "Family Portraits",
+     "caption": "Just the Two of Us",
+     "lbcap": "Just the Two of Us",
+     "size": "wide"
+    },
+    {
+     "image": "assets/img/fathers-day-out/fdo-portrait-6.jpg",
+     "full": "assets/img/fathers-day-out/fdo-portrait-6-full.jpg",
+     "alt": "Father seated on the swing between his two sons with a cat beside them",
+     "cat": "portrait",
+     "label": "Family Portraits",
+     "caption": "Three Generations of Smiles",
+     "lbcap": "Three Generations of Smiles",
+     "size": "normal"
+    }
+   ],
+   "visible": true
+  }
+ ],
+ "texts": {
+  "about.html": {
+   "title": "Empowering today’s youth as tomorrow’s leaders",
+   "lead": "Young Leaders Hub is a Dubai-based learning institute where children learn, evolve, indulge their curiosity and stay ahead in the race."
+  },
+  "programs.html": {
+   "title": "Programs that build real, usable capability",
+   "lead": "60+ KHDA-approved courses across technology, business, leadership, creativity and language. Every one of them ends in something your child has built, presented and defended."
+  },
+  "team.html": {
+   "title": "Mentors who have built things, not just taught them",
+   "lead": "Engineers, doctors, bankers, scholars, authors and coaches — the people your child will learn from every week."
+  },
+  "gallery.html": {
+   "title": "Inside Young Leaders Hub",
+   "lead": "Labs, studios, showcases and campus life. Click any image to open it full-size."
+  },
+  "campus.html": {
+   "title": "A campus built for building things",
+   "lead": "Located on the 5th floor of the Arab Bank Corporate Office in Dubai Outsource City — purpose-arranged labs, studios and collaboration spaces."
+  },
+  "contact.html": {
+   "title": "Talk to us",
+   "lead": "Questions about a program, fees, schedules or a campus visit? Our team is happy to help."
+  },
+  "enrollment.html": {
+   "title": "Express Your Interest",
+   "lead": "Fill in the form below to register your interest — our team will contact you with available slots, fee details and the next intake dates."
+  },
+  "teaching-model.html": {
+   "title": "Conceptual understanding, built through projects",
+   "lead": "We contrast sharply with the traditional method — and we are deliberate about why. Here is exactly how learning works at Young Leaders Hub."
+  },
+  "videos.html": {
+   "title": "Our Videos",
+   "lead": "Moments from the classroom, the mat and the stage — a running video record of what students at Young Leaders Hub get up to."
+  },
+  "index.html": {
+   "badge": "Now Accepting Expression of Interest — Dubai Outsource City, Limited Seats",
+   "title": "Future Ready.",
+   "accent": "Leader Ready.",
+   "lead": "Your child’s joyful learning starts here. We combine academics with innovation, problem solving, entrepreneurship, leadership and the essential life skills school rarely teaches."
+  }
+ },
+ "settings": {
+  "phone": "+971 58 512 0895",
+  "whatsapp": "971585120895",
+  "email": "info@youngleadershub.co"
+ },
+ "banner": {
+  "enabled": false,
+  "message": "",
+  "linkText": "",
+  "linkUrl": "",
+  "style": "orange",
+  "start": "",
+  "end": "",
+  "dismissible": true
+ }
+}
